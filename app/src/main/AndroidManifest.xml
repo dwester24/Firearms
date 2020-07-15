@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firearms">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ShotgunNight.ShotgunNight15"
+            android:label="Shotgun Night" />
+        <activity
+            android:name="ShotgunDay.ShotgunDay40"
+            android:label="Shotgun Day" />
+        <activity
+            android:name="ShotgunDay.ShotgunDay25"
+            android:label="Shotgun Day" />
+        <activity
+            android:name="ShotgunDay.ShotgunDay15pt2"
+            android:label="Shotgun Day" />
+        <activity
+            android:name="ShotgunDay.ShotgunDay15"
+            android:label="Shotgun Day" />
+        <activity
+            android:name="RifleDay.RifleDay15"
+            android:label="Patrol Rifle Day" />
+        <activity
+            android:name="RifleNight.RifleNight10"
+            android:label="Patrol Rifle Night" />
+        <activity
+            android:name="RifleDay.RifleDay10"
+            android:label="Patrol Rifle Day" />
+        <activity
+            android:name="ThirtyRoundNight.ThirtyRoundNight15"
+            android:label="30 Rounds Night" />
+        <activity
+            android:name="ThirtyRoundNight.ThirtyRoundNight10pt2"
+            android:label="30 Rounds Night" />
+        <activity
+            android:name="ThirtyRoundNight.ThirtyRoundNight10"
+            android:label="30 Rounds Night" />
+        <activity
+            android:name="ThirtyRoundNight.ThirtyRoundNight7"
+            android:label="30 Rounds Night" />
+        <activity
+            android:name="ThirtyRoundNight.ThirtyRoundNight5pt3"
+            android:label="30 Rounds Night" />
+        <activity
+            android:name="ThirtyRoundNight.ThirtyRoundNight5pt2"
+            android:label="30 Rounds Night" />
+        <activity
+            android:name="ThirtyRoundNight.ThirtyRoundNight5"
+            android:label="30 Rounds Night" />
+        <activity
+            android:name="ThirtyRoundDay.ThirtyRoundDay25"
+            android:label="30 Rounds Day" />
+        <activity
+            android:name="ThirtyRoundDay.ThirtyRoundDayFifteen"
+            android:label="30 Rounds Day" />
+        <activity
+            android:name="ThirtyRoundDay.ThirtyRoundDaySeven"
+            android:label="30 Rounds Day" />
+        <activity
+            android:name="FiftyRoundNight.TenYardpt4"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundNight.TenYardpt3"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundNight.FiveYardpt3"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundNight.FiveYardpt2"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundNight.FifteenYard"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundNight.TenYardpt2"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundNight.TenYardpt1"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundNight.SevenYard"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundNight.FiveYard"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundDay.sevenYardDaypt4"
+            android:label="50 Round Day" />
+        <activity
+            android:name="FiftyRoundDay.sevenYardDaypt3"
+            android:label="50 Round Day" />
+        <activity
+            android:name="FiftyRoundDay.sevenYardActivityDaypt2"
+            android:label="50 Round Day" />
+        <activity
+            android:name="FiftyRoundDay.FiftyRounds25Day"
+            android:label="50 Round Day" />
+        <activity
+            android:name="FiftyRoundDay.FiftyRounds15Day"
+            android:label="50 Round Day" />
+        <activity
+            android:name="FiftyRoundDay.FiftyRoundsSevenDay"
+            android:label="50 Round Day" />
+        <activity
+            android:name="Calculator.ThirtyRoundActivity"
+            android:label="30 Round Calculator" />
+        <activity
+            android:name="FiftyRoundNight.FifityRoundNightActivity"
+            android:label="50 Round Night" />
+        <activity
+            android:name="FiftyRoundDay.FiftyRoundDayActivity"
+            android:label="50 Round Day" />
+        <activity
+            android:name="ThirtyRoundNight.ThirtyRoundNightActivity"
+            android:label="30 Rounds Night" />
+        <activity
+            android:name="ThirtyRoundDay.ThirtyRoundDayActivity"
+            android:label="30 Rounds Day" />
+        <activity
+            android:name=".PatrolRifleActivity"
+            android:label="Patrol Rifle Courses" />
+        <activity
+            android:name=".ShotgunQualActivity"
+            android:label="Shotgun Courses" />
+        <activity
+            android:name=".HandgunQualActivity"
+            android:label="Handgun Courses" />
+        <activity
+            android:name="Calculator.CalculatorActivity"
+            android:label="Calculator" />
+        <activity
+            android:name=".QualificationActivity"
+            android:label="Qualification Courses" />
+        <activity
+            android:name="Calculator.Shotgun"
+            android:label="Shotgun" />
+        <activity
+            android:name="Calculator.FiftyRound"
+            android:label="50 Round Handgun" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
